@@ -1,8 +1,19 @@
+#sections-box {
+	float: left;
+	margin-top: 10px;
+	margin-left: -12px;
+	height: 26px;
+	width: 100px;
+	z-index: -1;
+	background: #80dfff;
+}
+
 #header {
 	margin-left: 20px;
 	height: 50px;
 	width: 100%;
 	top: 0px;
+	z-index: 1;
 	position: fixed;
 	background: #949599;
 }
@@ -10,7 +21,7 @@
 #page {
 	width: auto;
 	height: auto;
-	margin-top: 55px;
+	margin-top: 50px;
 	/*padding-right: 65px;*/
 	background: #F0F0F0;
 	margin-left: 20px;
@@ -60,6 +71,16 @@
 	height: 1500px; /*This will need to be changed to auto once there is text*/
 	margin: 50px 490px 50px 75px;
 	background: #1e90ff;
+}
+
+#comment-aside {
+	position: absolute;
+	top: 1850px;
+	right: 73px; 
+	height: 280px;
+	width: 360px;
+	z-index: 0;
+	background: #b7d84b;
 }
 
 #article-aside {
