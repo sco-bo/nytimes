@@ -1,0 +1,144 @@
+#header {
+	margin-left: 20px;
+	height: 50px;
+	width: 100%;
+	top: 0px;
+	position: fixed;
+	background: #949599;
+}
+
+#page {
+	width: auto;
+	height: auto;
+	margin-top: 55px;
+	/*padding-right: 65px;*/
+	background: #F0F0F0;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+#trending {
+	height: 85px;
+	background: #449599;
+	margin-bottom: 5px;
+}
+
+#article {
+	padding: 8px 65px 8px 50px;
+	height: auto;
+	background: #149599;
+}
+
+#article-head {
+	width: auto; 
+	height: 110px;
+	background: #649599;
+}
+
+#article-sub-head {
+	width: auto;
+	height: 60px;
+	background: #849599;
+	margin-bottom: 15px;
+}
+
+#lead-photo {
+	width: auto; 
+	height: 632px; 
+	background: #F0F0F0;
+}
+
+#lead-photo-caption {
+	width: auto; 
+	height: 55px; /*auto-resize depending on screen size?*/
+	padding-top: 8px;
+	background: #bdb76b;
+}
+
+.article-body {
+	width: auto;
+	height: 1500px; /*This will need to be changed to auto once there is text*/
+	margin: 50px 490px 50px 75px;
+	background: #1e90ff;
+}
+
+#article-aside {
+	width: auto;
+	height: 650px; 
+	margin-right: 190px;
+	margin-bottom: 10px;
+	background: #f0fff0;
+}
+
+#youtube-video {
+	width: auto;
+	height: 300px;
+	margin-right: 490px;
+	margin-bottom: 8px;
+	background: #2e8b57;
+}
+
+#video-caption {
+	width: auto; 
+	height: 20px;
+	margin-right: 490px;
+	background: #fffafa;
+}
+
+#secondary-photo {
+	width: auto; 
+	height: 430px;
+	margin-right: 490px;
+	margin-bottom: 10px;
+	background: #f4a460
+}
+
+#secondary-photo-caption {
+	width: auto;
+	height: 30px;
+	margin-right: 490px; /*since so many of these share the same right-margin as the article body, maybe they're part of that but just have negative left-margins*/
+	background: #87ceeb;
+}
+
+#article-note {
+	width: auto; 
+	height: 30px;
+	margin-right: 490px;
+	margin-left: 75px;
+	margin-top: -25px;
+	background: #66cdaa;
+}
+
+#recommended {
+	float: left;
+	width: 700px;
+	height: 200px;
+	margin: 50px 0px 10px 50px;
+	background: #1e90ff;
+}
+
+#trending-vertical {
+	margin: 50px 65px 200px 50px;
+	width: 370px; 
+	height: 500px;
+	float: right;
+	margin-right: 65px;
+	margin-left: 50px;
+	background: #4b0082;
+	
+}
+
+#footer {
+	margin: 0px 110px 0px 90px;
+	height: 470px;
+	width: auto;
+	clear: both;
+	background: #cd5c5c;
+}
+
+
+
+
+
+
+
