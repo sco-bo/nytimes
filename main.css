@@ -22,10 +22,8 @@
 	width: auto;
 	height: auto;
 	margin-top: 50px;
-	/*padding-right: 65px;*/
 	background: #F0F0F0;
 	margin-left: 20px;
-	overflow: hidden;
 }
 
 #trending {
@@ -61,101 +59,121 @@
 
 #lead-photo-caption {
 	width: auto; 
-	height: 55px; /*auto-resize depending on screen size?*/
+	height: 55px; 
 	padding-top: 8px;
 	background: #bdb76b;
 }
 
-.article-body {
-	width: auto;
-	height: 1500px; /*This will need to be changed to auto once there is text*/
-	margin: 50px 490px 50px 75px;
+#article-body {
+	width: 565px;
+	margin: 0px 490px 50px 75px;
 	background: #1e90ff;
+}
+
+.article-first-portion {
+	margin-top: 50px;
+	height: 1500px;
+}
+
+.article-second-portion {
+	margin-top: 20px;
+	height: 600px;
+}
+
+.article-third-portion {
+	margin-top: 30px;
+	height: 1000px;
+}
+
+.article-last-portion {
+	margin-top: 50px;
+	height: 1500px;
 }
 
 #comment-aside {
 	position: absolute;
 	top: 1850px;
-	right: 73px; 
+	right: 6.5%; 
 	height: 280px;
 	width: 360px;
-	z-index: 0;
+	/*z-index: 0;*/
 	background: #b7d84b;
 }
 
+/*Make comment-aside dissapear when screen gets too small */
+@media screen and (max-width: 1150px) {
+
+    #comment-aside {display:none;}
+}
+
 #article-aside {
-	width: auto;
-	height: 650px; 
-	margin-right: 190px;
+	max-width: 945px;
+	height: 576px; 
 	margin-bottom: 10px;
 	background: #f0fff0;
 }
 
 #youtube-video {
-	width: auto;
+	width: 639px;
 	height: 300px;
-	margin-right: 490px;
 	margin-bottom: 8px;
 	background: #2e8b57;
 }
 
 #video-caption {
-	width: auto; 
+	width: 639px; 
 	height: 20px;
-	margin-right: 490px;
 	background: #fffafa;
 }
 
 #secondary-photo {
-	width: auto; 
+	width: 639px; 
 	height: 430px;
-	margin-right: 490px;
 	margin-bottom: 10px;
 	background: #f4a460
 }
 
 #secondary-photo-caption {
-	width: auto;
+	width: 639px;
 	height: 30px;
-	margin-right: 490px; /*since so many of these share the same right-margin as the article body, maybe they're part of that but just have negative left-margins*/
 	background: #87ceeb;
 }
 
 #article-note {
-	width: auto; 
+	width: 565px; 
 	height: 30px;
-	margin-right: 490px;
 	margin-left: 75px;
-	margin-top: -25px;
 	background: #66cdaa;
 }
 
 #recommended {
 	float: left;
-	width: 700px;
+	width: 55%;
 	height: 200px;
-	margin: 50px 0px 10px 50px;
+	margin: 50px 1% 10px 5%;
+	z-index: -1;
 	background: #1e90ff;
 }
 
 #trending-vertical {
-	margin: 50px 65px 200px 50px;
-	width: 370px; 
+	margin: 50px 4% 200px 5%;
+	width: 30%; 
 	height: 500px;
 	float: right;
-	margin-right: 65px;
-	margin-left: 50px;
+	z-index: 0;
 	background: #4b0082;
-	
 }
 
 #footer {
-	margin: 0px 110px 0px 90px;
+	margin: 0px 8% 0px 7.5%;
 	height: 470px;
 	width: auto;
 	clear: both;
 	background: #cd5c5c;
 }
+
+
+
 
 
 
