@@ -727,26 +727,32 @@ body {
 }
 
 #more-recommended {
+	/*border-top: 1px solid #e2e2e2;*/
 	float: left;
 	width: 56%;
 	height: auto;
 	margin: 10px 1% 10px 5%;
 	z-index: -1;
-	background: #1e90ff;
+	/*background: #1e90ff;*/
 }
 
-#more-in-category {
+/*#more-in-category {
 	border-top: 1px solid #e2e2e2;
 	height: auto; 
 	background: white;
-}
+}*/
 
-#more-in-category h2 {
+#more-recommended h2 {
+	
 	margin-top: 3px;
 	margin-bottom: 10px;
 }
 
-#more-in-category h2 a {
+.list-heading {
+	border-top: 1px solid #e2e2e2;
+}
+
+#more-recommended h2 a {
 	line-height: 17px;
 	color: black;
 	font-family: "nyt-franklin",arial,helvetica,sans-serif;
@@ -755,11 +761,11 @@ body {
 	font-weight: 700;
 }
 
-#more-in-category h2 a:hover {
+#more-recommended h2 a:hover {
 	text-decoration: underline;
 }
 
-#more-in-category h2 span {
+#more-recommended h2 span {
 	padding-top: 8px;
 	font-size: 11px;
 	color: #326891;
@@ -767,14 +773,14 @@ body {
 	float: right;
 }
 
-#more-in-category h2 span:hover {
+#more-recommended h2 span:hover {
 	text-decoration: underline;
 }
 
-#recommended {
+/*#recommended {
 	height: 200px;
 	background: black;
-}
+}*/
 
 .article-grid {
 	/*display: inline-block;*/
